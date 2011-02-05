@@ -58,7 +58,7 @@ module Rubytime
       
       _ClientLogin = Class.new
       _ClientLogin.class_eval do
-        include DataMapper::Resource
+        include DataMapper::Model
         storage_names[:legacy] = "clients_logins"
         property :id,          DataMapper::Types::Serial
         property :login,       String

@@ -1,5 +1,5 @@
 class Currency
-  include DataMapper::Resource
+  include DataMapper::Model
   
   PREFIX_REGEX = SUFFIX_REGEX = /^[^0-9]*$/
   

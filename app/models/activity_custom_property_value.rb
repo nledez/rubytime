@@ -1,5 +1,5 @@
 class ActivityCustomPropertyValue
-  include DataMapper::Resource
+  include DataMapper::Model
   
   property :id, Serial
   property :activity_custom_property_id, Integer, :required => true

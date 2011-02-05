@@ -1,5 +1,5 @@
 class User
-  include DataMapper::Resource
+  include DataMapper::Model
 
   RECENT_ACTIVITIES_NUM = 3
   LOGIN_REGEXP = /^[\w_\.-]{3,20}$/

@@ -1,5 +1,5 @@
 class Project
-  include DataMapper::Resource
+  include DataMapper::Model
 
   property :id,           Serial
   property :name,         String, :required => true, :unique => true, :index => true

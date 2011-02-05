@@ -1,5 +1,5 @@
 class FreeDay
-  include DataMapper::Resource
+  include DataMapper::Model
   
   property :id, Serial
   property :user_id,     Integer, :required => true, :index => true

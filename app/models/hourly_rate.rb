@@ -1,5 +1,5 @@
 class HourlyRate
-  include DataMapper::Resource
+  include DataMapper::Model
     
   property :id, Serial
   property :project_id, Integer, :required => true

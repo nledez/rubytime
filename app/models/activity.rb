@@ -2,7 +2,7 @@ class Activity
   # TODO: move to a custom DM type
   HOURS_REGEX = /^(\d{1,2}([\.,]\d{1,2}h?|:[0-5]\d|[hm])?|[\.,]\d{1,2}h?)$/
 
-  include DataMapper::Resource
+  include DataMapper::Model
   
   property :id,          Serial
   property :comments,    Text

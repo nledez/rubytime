@@ -1,5 +1,5 @@
 class Client
-  include DataMapper::Resource
+  include DataMapper::Model
 
   property :id,           Serial
   property :name,         String, :required => true, :index => true

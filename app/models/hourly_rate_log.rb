@@ -1,5 +1,5 @@
 class HourlyRateLog
-  include DataMapper::Resource
+  include DataMapper::Model
   
   VALID_OPERATION_TYPES = ['create', 'update', 'destroy']
   ATTRIBUTES_TO_LOG = [:project_id, :role_id, :takes_effect_at, :value, :currency_id]

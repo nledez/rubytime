@@ -74,7 +74,7 @@ end
 
 # TODO: this is temporary until merb-auth-more is updated to the latest dm-core API - solnic
 module DataMapper
-  module Resource
+  module Model
     def new_record?
       new?
     end

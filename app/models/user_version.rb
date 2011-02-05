@@ -2,7 +2,7 @@
 # at the time of this writing
 
 class UserVersion
-  include DataMapper::Resource
+  include DataMapper::Model
 
   # some of user's properties were excluded from versioning
   # id = user's id, not version's id

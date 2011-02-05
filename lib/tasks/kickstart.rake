@@ -7,8 +7,8 @@ namespace :rubytime do
     # currencies
     [{:singular_name => 'dollar', :plural_name => 'dollars', :prefix => '$'   },
      {:singular_name => 'zloty',  :plural_name => 'zlotys',  :suffix => 'PLN' },
-     {:singular_name => 'euro',   :plural_name => 'euros',   :prefix => '€'   },
-     {:singular_name => 'pound',  :plural_name => 'pounds',  :prefix => '£'   }
+     {:singular_name => 'euro',   :plural_name => 'euros',   :prefix => 'E'   },
+     {:singular_name => 'pound',  :plural_name => 'pounds',  :prefix => 'L'   }
     ].each do |currency_attrs|
       unless Currency.first(:singular_name => currency_attrs[:singular_name])
         puts "creating currency #{currency_attrs[:singular_name]}"

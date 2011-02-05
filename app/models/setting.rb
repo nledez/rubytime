@@ -1,5 +1,5 @@
 class Setting
-  include DataMapper::Resource
+  include DataMapper::Model
   
   ACCESS_KEY_CHARS = "1234567890qwrtpsdfghjklzxcvbnmQWRTPSDFGHJKLZXCVBNM"
   

@@ -1,5 +1,5 @@
 class ProjectActivityType
-  include DataMapper::Resource
+  include DataMapper::Model
 
   property :project_id,       Integer, :required => true, :key => true
   property :activity_type_id, Integer, :required => true, :key => true

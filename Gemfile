@@ -34,9 +34,10 @@ git "git://github.com/schwabsauce/merb_dm_xss_terminate.git" do
   gem "merb_dm_xss_terminate"
 end
 
-gem "mongrel", "1.1.5"
+#gem "mongrel", "1.1.5"
+gem "mongrel", "1.2.0.pre2"
 gem "icalendar", "~>1.1.0"
-gem "fastercsv", '1.5.3'
+gem "fastercsv", '1.5.4'
 gem 'rack_revision_info'
 gem 'nokogiri', '1.4.1'  # for rack_revision_info
 # TODO: revision info doesn't work on the production now (which was the whole point) because Vlad deletes .git
@@ -57,6 +58,6 @@ group :development, :test do
   gem "rcov_stats"
   gem "ci_reporter"
   gem "jslint_on_rails"
-  gem 'ruby-debug'
+  gem 'ruby-debug19'
   gem 'delorean'
 end
